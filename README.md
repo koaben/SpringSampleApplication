@@ -1,4 +1,4 @@
-# spring-boot-h2-crud
+# spring-boot CRUD samples
 
 
 In this app we are using Spring Data JPA for built-in methods to do CRUD operations.     
@@ -6,7 +6,7 @@ In this app we are using Spring Data JPA for built-in methods to do CRUD operati
 
 
 
-## Prerequisites 
+## Technologies used 
 - Java
 - [Spring Boot](https://spring.io/projects/spring-boot)
 - [Maven](https://maven.apache.org/guides/index.html)
@@ -18,7 +18,6 @@ In this app we are using Spring Data JPA for built-in methods to do CRUD operati
 
 
 ###  Build and Run application
-_GOTO >_ **~/absolute-path-to-directory/spring-boot-h2-crud**  
 and try below command in terminal
 > **```mvn spring-boot:run```** it will run application as spring boot application
 
