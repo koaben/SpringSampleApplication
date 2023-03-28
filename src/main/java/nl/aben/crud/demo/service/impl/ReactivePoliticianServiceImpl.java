@@ -28,7 +28,7 @@ public class ReactivePoliticianServiceImpl implements ReactivePoliticianService 
         List<Politician> politicians = repository.findAll();
 
         return Flux.fromIterable(politicians)
-                .delayElements(Duration.ofSeconds(1))
+               // .delayElements(Duration.ofSeconds(1))
                 .doOnNext(politician -> log.info("*** {}", politician))
                 .map(politician -> politician)
                 .log();     // log() to print event stream on console. Check console for event logs
